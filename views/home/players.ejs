@@ -1,0 +1,98 @@
+<div class="players">
+    <br>
+    <div class="control">
+        <div class="name"><h2>PLAYERS</h2></div>
+        <div class="controls">
+            <img onclick="slideRight()" src="/images/arrows1.png" alt="">
+            <img onclick="slideLeft()" src="/images/arrows2.png" alt="">
+        </div>
+    </div>
+    <br>
+    <div class="playercards">
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://cdn.oneesports.gg/cdn-data/2021/06/Valorant_TenZSentinelsVCTStage2MastersPost_2-1024x726.jpg');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/tenzofficial/?hl=en"><h3>Tenz</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://www.dexerto.com/cdn-cgi/image/width=828,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/17/53103555104_ca801dc311_k_1600x900.jpg');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/derkevlr/"><h3>Derke</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://www.esportmaniacos.com/wp-content/uploads/2023/06/Demon1-Valorant-780x470.jpg');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/maximilianmazanov/?hl=en"><h3>Demon1</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://dotesports.com/wp-content/uploads/2023/04/prx-something.jpg?resize=1536,1024');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/pprxteam/?hl=en"><h3>Something</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://images-ext-2.discordapp.net/external/OjGQHHxKtvZ80jbyZepV3hYZVCz5WDQRcp_u5if0t_0/https/liquipedia.net/commons/images/thumb/d/dd/TSM_Verhulst_at_the_ALGS_Birmingham_Championship.jpg/900px-TSM_Verhulst_at_the_ALGS_Birmingham_Championship.jpg?width=883&height=588');">
+                
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/verhulstevan/?hl=en"><h3>Verhulst</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://theclutch.com.br/wp-content/uploads/2022/09/aspas-loud-campeao-cyw-1160x774.jpg');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/cristiano/?hl=en"><h3>Aspas</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://dotesports.com/wp-content/uploads/2021/05/24125915/boaster-scaled.jpg?w=1200');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/fnatic.valorant/?hl=en"><h3>Boaster</h3></a>
+            </div>
+        </div>
+        <div class="player-card">
+            <div class="dp" style="background-image: url('https://dotesports.com/wp-content/uploads/2022/01/16200613/Ropz_@_PGL_Major_Stockholm_20211.jpg?w=1200');">
+
+            </div>
+            <div class="information effect">
+                <a target="_blank" href="https://www.instagram.com/ropzicle/?hl=en"><h3>Ropz</h3></a>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        let slider = document.querySelector(".playercards");
+        function slideLeft(){
+            console.log("hello");
+            slider.scrollBy({
+                top: 0,
+                left: +600,
+                behavior: 'smooth'
+              }); 
+        }
+        function slideRight(){
+            console.log("hello");
+            slider.scrollBy({
+                top: 0,
+                left: -600,
+                behavior: 'smooth'
+              }); 
+        }
+    </script>
+</div>
+<br>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/login.css">
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/806/806133.png">
+  <title>Login</title>
+  <style>
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div class="login"></div> -->
+  <div class="login-form">
+    <form action="/register" method="POST" id="inputform">
+      <h1>Register</h1>
+      <div class="content">
+        <div class="input-field">
+          <input type="text" placeholder="Name" name="name" id="name" autocomplete="nope" required>
+        </div>
+        <div class="input-field">
+          <input type="email" placeholder="Email" name="email" id="email" autocomplete="nope" required>
+        </div>
+        <div class="input-field">
+          <input type="password" placeholder="Password" name="password" id="password" autocomplete="new-password" required>
+        </div>
+        <a href="#" style="color: red;font-size: 1.2rem;" class="link"><%= Invalid %> </a>
+      </div>
+      <div class="action">
+        <a href="/login"><button>Sign in</a>
+          <!-- <button><a href="/login">Sign in</a></button> -->
+        <button>Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
