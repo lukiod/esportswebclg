@@ -2,7 +2,7 @@
   "dependencies": {
     "alert": "^5.1.1",
     "config": "^3.3.7",
-    "ejs": "^3.1.8",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "method-override": "^3.0.0",
     "mongoose": "^6.7.4",
