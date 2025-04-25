@@ -7,7 +7,7 @@
     "method-override": "^3.0.0",
     "mongoose": "^6.7.4",
     "nodemailer": "^6.9.7",
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.1.10"
   },
   "scripts": {
     "start": "nodemon -L App.js"
